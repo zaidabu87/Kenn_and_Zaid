@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microverse Survey Form</title>
+    <link rel="stylesheet" href="survey-form.css">
+    <h1>How can Microverse improve their Collaborative Coding?</h1>
+
+</head>
+<body>
+    <p id="description"> thank you for taking the time to help Microverse improve</p>
+    <form id="survey-form">
+        <div class="input-element">
+            <label id="name-label">
+                Name
+            </label>
+            <input placeholder="name" id="name" type="text" required>
+        </div>
+        <div class="input-element">
+            <label id="email-label">
+                Email
+            </label>
+        </div>
+            <input placeholder="email" id="email" type="email" required>
+            <div class="input-element">
+                <label id="number-label">
+                    Name
+                </label>
+                <input placeholder="age" id="number" min="5" max="100" type="number" required>
+            </div>
+                <div class="input-element">
+                <label id="select-label">
+                    What is your favorite part of Microverse?
+                    <select>
+                        <option>HackerRank Stage</option>
+                        <option>Introduction Stage</option>
+                        <option>Trials Stage</option>
+
+                    </select>
+                </div>
+                <div>
+                    <label>Have you being to any BootCamp before?</label>
+                    <div>
+                        <label><input type="radio" name="BootCamp" value="Yes"/>Yes</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="BootCamp" value="No"/>Yes</label>
+                    </div>
+                    <label>Which suggestions are you going to giver Microverse?</label>
+                    <div>
+                        <label><input type="checkbox" name="BootCamp"/>Improve Collaboration</label>
+                    </div>
+                    <div>
+                        <label><input type="checkbox" name="BootCamp"/>Give weekly feedbacks</label>
+                    </div>
+                </div>
+                </label>
+                <input placeholder="age" id="age" min="5" max="100" type="number" required>
+            <div class="input-element">
+                <label>Additional Comments</label>
+                <textarea type="text"></textarea>
+            </div>        
+            <button type="Submit" id="Submit">Submit</button>
+    
+            </form>
+    
+</body>
+</html>
